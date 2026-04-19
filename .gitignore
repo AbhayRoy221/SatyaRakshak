@@ -1,0 +1,8 @@
+node_modules/
+.env
+backend/certs/
+*.pem
+*.key
+dist/
+.DS_Store
+Thumbs.db

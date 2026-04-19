@@ -1,0 +1,15 @@
+{
+  "description": "Known misinformation, unreliable, or repeatedly flagged domains",
+  "sources": [
+    { "domain": "postcard.news", "reason": "Multiple fact-checks debunked content", "reputation": 0.0 },
+    { "domain": "thecountercheck.com", "reason": "Repeated false claims without correction", "reputation": 0.0 },
+    { "domain": "rightlog.in", "reason": "Anonymous sourcing, fabricated quotes", "reputation": 0.0 },
+    { "domain": "kreately.in", "reason": "Propaganda content flagged by IFCN members", "reputation": 0.0 },
+    { "domain": "truther.in", "reason": "Conspiracy theories, no editorial standards", "reputation": 0.0 },
+    { "domain": "jantakareporter.com", "reason": "Satire misrepresented as news", "reputation": 0.1 },
+    { "domain": "indiasamvad.co.in", "reason": "Unverified inflammatory content", "reputation": 0.0 },
+    { "domain": "thelallantop.com", "reason": "Occasional misleading headlines", "reputation": 0.3 },
+    { "domain": "newnation.in", "reason": "Fabricated news articles", "reputation": 0.0 },
+    { "domain": "thatsenough.in", "reason": "Satire site confused as real news", "reputation": 0.1 }
+  ]
+}
