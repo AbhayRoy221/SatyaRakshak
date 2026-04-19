@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🛡️ CrisisVerify v2.0</h1>
+  <h1>🛡️ SatyaRakshak v2.0</h1>
   <p>
     <strong>Unified Multi-Modal Forensic Command Center for Crisis Misinformation</strong>
     <br>
@@ -16,9 +16,9 @@
 
 ## 📖 About The Project
 
-CrisisVerify is a highly advanced, forensic-grade crisis misinformation detection engine designed to counter next-generation fake news. 
+SatyaRakshak is a highly advanced, forensic-grade crisis misinformation detection engine designed to counter next-generation fake news. 
 
-Going beyond standard AI wrappers, CrisisVerify **v2.0** introduces a **Unified Multi-Modal Engine** powered by an **Agentic AI Orchestrator** (the "Forensic Chief"). It allows users to upload images (like altered WhatsApp memes) and text together, extracting multi-lingual claims via Vision OCR, checking cryptographic provenance via C2PA, grounding claims in 15-minute global geographic data via G-RAG, and scoring mathematical source credibility instantaneously.
+Going beyond standard AI wrappers, SatyaRakshak **v2.0** introduces a **Unified Multi-Modal Engine** powered by an **Agentic AI Orchestrator** (the "Forensic Chief"). It allows users to upload images (like altered WhatsApp memes) and text together, extracting multi-lingual claims via Vision OCR, checking cryptographic provenance via C2PA, grounding claims in 15-minute global geographic data via G-RAG, and scoring mathematical source credibility instantaneously.
 
 The system runs **5 parallel forensic verification tracks** entirely simultaneously, governed by an autonomous **CogPlanner** reasoning agent that synthesizes cross-track evidence to produce a comprehensive forensic verdict.
 
@@ -26,7 +26,7 @@ The system runs **5 parallel forensic verification tracks** entirely simultaneou
 
 ## 🧠 Agentic AI: The "Forensic Chief" CogPlanner
 
-Unlike traditional linear pipelines, CrisisVerify v2.0 uses an **Agentic AI** architecture. The LLM doesn't just summarize — it **reasons autonomously** across all 5 tracks using an observe-think-act-synthesize loop:
+Unlike traditional linear pipelines, SatyaRakshak v2.0 uses an **Agentic AI** architecture. The LLM doesn't just summarize — it **reasons autonomously** across all 5 tracks using an observe-think-act-synthesize loop:
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -196,8 +196,8 @@ User Input (Text + Image)
 
 ### 1. Installation
 ```bash
-git clone https://github.com/YOUR_USERNAME/CrisisVerify.git
-cd CrisisVerify/backend
+git clone https://github.com/YOUR_USERNAME/SatyaRakshak.git
+cd SatyaRakshak/backend
 npm install
 ```
 
@@ -222,7 +222,7 @@ Download `c2patool` from the official GitHub Release and ensure it is accessible
 Generate a testing certificate:
 ```bash
 cd backend/certs
-openssl req -x509 -newkey ec -pkeyopt ec_paramgen_curve:P-256 -keyout private.key -out cert.pem -days 365 -nodes -subj "/CN=CrisisVerify_Engine"
+openssl req -x509 -newkey ec -pkeyopt ec_paramgen_curve:P-256 -keyout private.key -out cert.pem -days 365 -nodes -subj "/CN=SatyaRakshak_Engine"
 ```
 
 ### 5. Launch
@@ -269,7 +269,7 @@ This project is built for academic and research purposes.
 ---
 
 <div align="center">
-  <strong>CrisisVerify</strong> · Digital Forensic Command Center
+  <strong>SatyaRakshak</strong> · Digital Forensic Command Center
   <br>
   <sub>Built with BFNK Dataset · G-RAG · C2PA · Gemini Vision · VADER · Groq LLM · Agentic AI</sub>
 </div>
