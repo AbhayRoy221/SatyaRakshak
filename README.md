@@ -1,28 +1,24 @@
 <div align="center">
-  <h1>🛡️ SatyaRakshak v2.0</h1>
+  <h1>🛡️ CrisisVerify v2.0</h1>
   <p>
     <strong>Unified Multi-Modal Forensic Command Center for Crisis Misinformation</strong>
     <br>
     <em>"We don't guess. We verify."</em>
   </p>
-<<<<<<< HEAD
   <p>
     <img src="https://img.shields.io/badge/Tracks-5_Parallel-00f0ff?style=for-the-badge" alt="5 Tracks">
     <img src="https://img.shields.io/badge/AI-Agentic_CogPlanner-a855f7?style=for-the-badge" alt="Agentic AI">
     <img src="https://img.shields.io/badge/Engine-Forensic_Grade-ff3b4e?style=for-the-badge" alt="Forensic Grade">
   </p>
-=======
->>>>>>> 0d1494c22b36348004dafe0e618158dfe0061fb4
 </div>
 
 ---
 
 ## 📖 About The Project
 
-SatyaRakshak is a highly advanced, forensic-grade crisis misinformation detection engine designed to counter next-generation fake news. 
+CrisisVerify is a highly advanced, forensic-grade crisis misinformation detection engine designed to counter next-generation fake news. 
 
-<<<<<<< HEAD
-Going beyond standard AI wrappers, SatyaRakshak **v2.0** introduces a **Unified Multi-Modal Engine** powered by an **Agentic AI Orchestrator** (the "Forensic Chief"). It allows users to upload images (like altered WhatsApp memes) and text together, extracting multi-lingual claims via Vision OCR, checking cryptographic provenance via C2PA, grounding claims in 15-minute global geographic data via G-RAG, and scoring mathematical source credibility instantaneously.
+Going beyond standard AI wrappers, CrisisVerify **v2.0** introduces a **Unified Multi-Modal Engine** powered by an **Agentic AI Orchestrator** (the "Forensic Chief"). It allows users to upload images (like altered WhatsApp memes) and text together, extracting multi-lingual claims via Vision OCR, checking cryptographic provenance via C2PA, grounding claims in 15-minute global geographic data via G-RAG, and scoring mathematical source credibility instantaneously.
 
 The system runs **5 parallel forensic verification tracks** entirely simultaneously, governed by an autonomous **CogPlanner** reasoning agent that synthesizes cross-track evidence to produce a comprehensive forensic verdict.
 
@@ -30,7 +26,7 @@ The system runs **5 parallel forensic verification tracks** entirely simultaneou
 
 ## 🧠 Agentic AI: The "Forensic Chief" CogPlanner
 
-Unlike traditional linear pipelines, SatyaRakshak v2.0 uses an **Agentic AI** architecture. The LLM doesn't just summarize — it **reasons autonomously** across all 5 tracks using an observe-think-act-synthesize loop:
+Unlike traditional linear pipelines, CrisisVerify v2.0 uses an **Agentic AI** architecture. The LLM doesn't just summarize — it **reasons autonomously** across all 5 tracks using an observe-think-act-synthesize loop:
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -57,11 +53,6 @@ Unlike traditional linear pipelines, SatyaRakshak v2.0 uses an **Agentic AI** ar
 - **Source Discrepancy Detection**: If a claim was first seen on WhatsApp but claims official authority, the Chief triggers a "Source Discrepancy" warning
 - **Cross-Track Reasoning**: Platform origin (Track 5) is checked against linguistic style (Stylometry) — if they don't match, it flags coordinated misinformation
 - **Failover Intelligence**: If GDELT rate-limits, the Chief silently shifts weight to Tavily evidence without pipeline failure
-=======
-Going beyond standard AI wrappers, SatyaRakshak **v2.0** introduces a **Unified Multi-Modal Engine**. It allows users to upload images (like altered WhatsApp memes) and text together, extracting multi-lingual claims via Vision OCR, checking cryptographic provenance via C2PA, grounding claims in 15-minute global geographic data via G-RAG, and scoring mathematical source credibility instantaneously.
-
-The system runs **4 parallel forensic verification tracks** entirely simultaneously, returning a comprehensive 6-point AI synthesis in sub-5-second response times.
->>>>>>> 0d1494c22b36348004dafe0e618158dfe0061fb4
 
 ---
 
@@ -73,7 +64,6 @@ Upload an image with or without text. If the image contains a viral meme or news
 ### 🧠 2. Intelligent G-RAG Override Engine
 The Geographic Grounding (G-RAG) layer no longer relies on naive keyword match-counting. Instead, it utilizes an extremely fast Groq LLM (Llama-3.1-8B) to actively read snippets from live GDELT/Tavily search results. If the AI detects that fact-checkers (e.g., Reuters, Lighthouse) are debunking the claim, it forces a **`CONTRADICTED`** override, triggering a "Critical Failure" double penalty that instantly labels the claim as `HIGH_RISK`.
 
-<<<<<<< HEAD
 ### 🕵️ 3. Digital Fingerprinting (Track 5) — NEW
 A three-pronged forensic system to trace the **origin** of any claim:
 
@@ -113,20 +103,6 @@ A premium, highly interactive frontend displaying beautiful active canvas render
 The post-analysis LLM no longer provides a generic paragraph. The **Agentic Forensic Chief** outputs a rigidly structured forensics breakdown:
 1. **CLAIM SUMMARY**
 2. **EVIDENCE ANALYSIS** (must explicitly mention Track 5 Origin Evidence)
-=======
-### 🛡️ 3. Battle-Tested Infrastructure (Failover RAG)
-The system is built to survive external API failures. If the GDELT Doc 2.0 API rate-limits the connection (429) or crashes due to malformed regex from OCR extraction, the engine safely swallows the error, prevents pipeline failure, and silently relies entirely on the Tavily secondary RAG engine to complete the operation.
-
-### 🎨 4. "Deep Space" Forensic Grid Dashboard
-A premium, highly interactive frontend displaying beautiful active canvas renders:
-- **Credibility Radial Gauge**: Live rendering of the source's `Cs` formula score.
-- **Sentiment Timeline**: A dynamic line-chart mapping emotional manipulation and negative sentiment flags from VADER.
-
-### 📝 5. Strict 6-Point LLM Synthesis
-The post-analysis LLM no longer provides a generic paragraph. It is rigidly prompted to output a professional forensics breakdown:
-1. **CLAIM SUMMARY**
-2. **EVIDENCE ANALYSIS**
->>>>>>> 0d1494c22b36348004dafe0e618158dfe0061fb4
 3. **KEY INDICATORS**
 4. **VERDICT**
 5. **CONFIDENCE SCORE (%)**
@@ -134,31 +110,20 @@ The post-analysis LLM no longer provides a generic paragraph. It is rigidly prom
 
 ---
 
-<<<<<<< HEAD
 ## 🛠️ The Core 5-Track Forensic Pipeline
-=======
-## 🛠️ The Core 4-Track Forensic Pipeline
->>>>>>> 0d1494c22b36348004dafe0e618158dfe0061fb4
 
 | Track | Name | Tech / Concept |
 |-------|------|----------------|
 | **T1** | **G-RAG Grounding** | Queries Tavily APIs + GDELT for breaking news within a 15 min-window. Automatically extracts locations using NER. |
-<<<<<<< HEAD
 | **T2** | **Source Credibility** | Dynamic Cs Formula against the 60-domain BFNK Dataset + Tavily/Groq AI estimation for unknown domains. |
 | **T3** | **Sentiment Analysis** | VADER sentiment checks for severe emotional manipulation (`compound < -0.5`). |
 | **T4** | **Image Provenance** | Queries OpenSSL and the `c2patool` CLI to detect cryptographically signed images and verify tampering. |
 | **T5** | **Digital Fingerprinting** | Vision-UI audit + Linguistic Stylometry + Temporal "Patient Zero" search across social platforms. |
-=======
-| **T2** | **Source Credibility** | Evaluates trust using the research-backed Cs Formula against the 60-domain BFNK Dataset. |
-| **T3** | **Sentiment Analysis** | VADER sentiment checks for severe emotional manipulation (`compound < -0.5`). |
-| **T4** | **Image Provenance** | Queries OpenSSL and the `c2patool` CLI to detect cryptographically signed images and verify tampering. |
->>>>>>> 0d1494c22b36348004dafe0e618158dfe0061fb4
 
 #### The Mathematical Credibility Formula (T2)
 ```text
 Cs = (0.5 × H) + (0.3 × min(N/1.97, 1.0)) + (0.2 × R)
 ```
-<<<<<<< HEAD
 - **`H` (History)**: % of true articles from the domain in BFNK. For unknown domains: estimated via Tavily + Groq AI.
 - **`N` (Author Density)**: Normalized against the 1.97 benchmark (Fake news averages 0.66 authors).
 - **`R` (Reputation)**: Tiered scores — 1.0 IFCN, 0.7 Independent, 0.6 Mainstream, 0.5 Regional, 0.3 Partisan, 0.0 Flagged.
@@ -208,11 +173,6 @@ User Input (Text + Image)
            │  + Origin Proof │
            └─────────────────┘
 ```
-=======
-- **`H` (History)**: % of true articles from the domain in BFNK.
-- **`N` (Author Density)**: Normalized against the 1.97 benchmark (Fake news averages 0.66 authors).
-- **`R` (Reputation)**: Hard-coded tiers (1.0 IFCN, 0.6 Mainstream, 0.0 Flagged).
->>>>>>> 0d1494c22b36348004dafe0e618158dfe0061fb4
 
 ---
 
@@ -220,7 +180,6 @@ User Input (Text + Image)
 
 | Layer | Technology |
 |-------|-----------|
-<<<<<<< HEAD
 | **Agentic AI / Synthesis** | Groq (Llama-3.1-8B) — CogPlanner Prompt |
 | **Vision & Edge Case LLM** | Gemini 2.5 Flash |
 | **RAG Search Engines** | Tavily Search API + GDELT Project |
@@ -229,14 +188,6 @@ User Input (Text + Image)
 | **Cryptography** | c2patool CLI |
 | **Database** | Supabase (PostgreSQL + pgvector) |
 | **Sentiment Analysis** | VADER Sentiment (Node.js port) |
-=======
-| **Vision & Edge Case LLM** | Gemini 2.5 Flash |
-| **Fast Inference LLM** | Groq (Llama-3.1-8B) |
-| **RAG Search Engines** | Tavily Search API + GDELT Project |
-| **Cryptography** | c2patool CLI |
-| **Database** | Supabase (PostgreSQL + pgvector) |
-| **Vibe/Syntax Analysis** | VADER Sentiment (Node.js port) |
->>>>>>> 0d1494c22b36348004dafe0e618158dfe0061fb4
 | **Frontend/Backend** | Custom Vanilla HTML/CSS/JS + Express.js |
 
 ---
@@ -245,22 +196,13 @@ User Input (Text + Image)
 
 ### 1. Installation
 ```bash
-<<<<<<< HEAD
-git clone https://github.com/YOUR_USERNAME/SatyaRakshak.git
-cd SatyaRakshak/backend
-=======
-git clone <repository>
-cd backend
->>>>>>> 0d1494c22b36348004dafe0e618158dfe0061fb4
+git clone https://github.com/YOUR_USERNAME/CrisisVerify.git
+cd CrisisVerify/backend
 npm install
 ```
 
 ### 2. Environment Configuration
-<<<<<<< HEAD
 Create a `.env` file in the `backend/` folder (see `.env.example`):
-=======
-Create a `.env` file in the `backend/` folder:
->>>>>>> 0d1494c22b36348004dafe0e618158dfe0061fb4
 ```text
 GROQ_API_KEY=your_groq_key
 GEMINI_API_KEY=your_gemini_key
@@ -271,11 +213,7 @@ FRONTEND_ORIGIN=http://localhost:5500
 PORT=3001
 ```
 
-<<<<<<< HEAD
 ### 3. Database Initialization
-=======
-### 3. Database initialization
->>>>>>> 0d1494c22b36348004dafe0e618158dfe0061fb4
 Run the provided SQL initialization scripts inside the Supabase SQL Editor:
 - `backend/data/supabase-schema.sql`
 
@@ -284,24 +222,16 @@ Download `c2patool` from the official GitHub Release and ensure it is accessible
 Generate a testing certificate:
 ```bash
 cd backend/certs
-openssl req -x509 -newkey ec -pkeyopt ec_paramgen_curve:P-256 -keyout private.key -out cert.pem -days 365 -nodes -subj "/CN=SatyaRakshak_Engine"
+openssl req -x509 -newkey ec -pkeyopt ec_paramgen_curve:P-256 -keyout private.key -out cert.pem -days 365 -nodes -subj "/CN=CrisisVerify_Engine"
 ```
 
 ### 5. Launch
-<<<<<<< HEAD
 Start the backend:
-=======
-Start the required node backend handling Multer multipart/file payloads:
->>>>>>> 0d1494c22b36348004dafe0e618158dfe0061fb4
 ```bash
 cd backend
 npm run dev
 ```
-<<<<<<< HEAD
 Start your frontend using Live Server or any static host at `http://localhost:5500`.
-=======
-Start your frontend index using Live Server or any static host at `http://localhost:5500`.
->>>>>>> 0d1494c22b36348004dafe0e618158dfe0061fb4
 
 ---
 
@@ -309,7 +239,6 @@ Start your frontend index using Live Server or any static host at `http://localh
 
 **1. Multi-Modal Viral Meme Test**  
 - Upload an image containing Hindi text about an unverified event.  
-<<<<<<< HEAD
 - *Result:* Gemini OCR translates the claim, G-RAG detects 0 matches, Track 5 identifies WhatsApp UI artifacts, and the Agentic Chief flags as `HIGH_RISK` with a Source Discrepancy warning.  
 
 **2. Fact-Check Override Test**  
@@ -340,18 +269,7 @@ This project is built for academic and research purposes.
 ---
 
 <div align="center">
-  <strong>SatyaRakshak</strong> · Digital Forensic Command Center
+  <strong>CrisisVerify</strong> · Digital Forensic Command Center
   <br>
   <sub>Built with BFNK Dataset · G-RAG · C2PA · Gemini Vision · VADER · Groq LLM · Agentic AI</sub>
 </div>
-=======
-- *Result:* Gemini OCR translates the claim, G-RAG detects 0 matches, and Orchestrator flags as `HIGH_RISK`.  
-
-**2. Fact-Check Override Test**  
-- Paste the claim: *"Two Indian jets downed, pilot captured by Pakistani forces."*  
-- *Result:* Tavily fetches 5 articles. The intelligent Groq LLM actively reads the articles and establishes that they are Reuters Fact-Checkers debunking the claim. It overrides the hit counter to output `CONTRADICTED ❌`.  
-
-**3. The Validated Post Test**  
-- Paste the claim: *"Prime Minister to address the nation tonight."* with `timesofindia.indiatimes.com` as the Source Domain.  
-- *Result:* G-RAG confirms via live search, Credibility resolves high using the Cs formula, outputting `VERIFIED — CLAIM CORROBORATED ✅`.
->>>>>>> 0d1494c22b36348004dafe0e618158dfe0061fb4
