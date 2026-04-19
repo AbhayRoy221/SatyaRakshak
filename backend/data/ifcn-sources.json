@@ -1,0 +1,15 @@
+{
+  "description": "IFCN (International Fact-Checking Network) certified organizations in India",
+  "sources": [
+    { "domain": "boomlive.in", "name": "BOOM", "reputation": 1.0, "verified_since": "2018" },
+    { "domain": "altnews.in", "name": "Alt News", "reputation": 1.0, "verified_since": "2018" },
+    { "domain": "factchecker.in", "name": "FactChecker", "reputation": 1.0, "verified_since": "2019" },
+    { "domain": "vishvasnews.com", "name": "Vishvas News", "reputation": 1.0, "verified_since": "2019" },
+    { "domain": "factly.in", "name": "Factly", "reputation": 1.0, "verified_since": "2019" },
+    { "domain": "newschecker.in", "name": "Newschecker", "reputation": 1.0, "verified_since": "2020" },
+    { "domain": "digiteye.in", "name": "DigitEye", "reputation": 1.0, "verified_since": "2020" },
+    { "domain": "logicallyfacts.com", "name": "Logically Facts", "reputation": 1.0, "verified_since": "2020" },
+    { "domain": "thequint.com", "name": "The Quint (WebQoof)", "reputation": 0.95, "verified_since": "2019" },
+    { "domain": "indiatoday.in", "name": "India Today (Fact Check)", "reputation": 0.90, "verified_since": "2020" }
+  ]
+}
